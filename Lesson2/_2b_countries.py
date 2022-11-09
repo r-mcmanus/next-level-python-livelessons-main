@@ -23,3 +23,7 @@ for country in countries:
 print(f'{len(letter_countries)} countries start with an {letter}')
 
 # Todo: Create text file that lists the countries starting with the letter
+with open(f'data/{letter}_countries.txt', 'w') as file:
+    for country in letter_countries:
+        file.write(country)
+        file.write('\n')
