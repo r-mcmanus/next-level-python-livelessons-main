@@ -29,6 +29,8 @@ with open("data/continents_2.csv", "w") as file:
     writer = csv.writer(file, lineterminator='\n')
     for country in country_list:
         writer.writerow(country)
+#apppending data
+    writer.writerow(['Antarctica', 'UK'])
 
 
 
