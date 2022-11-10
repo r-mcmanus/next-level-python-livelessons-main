@@ -9,6 +9,7 @@ with open("data/continents_2.csv") as file:
     reader = csv.reader(file)
     country_list = list(reader)
 
+
 index = -1
 
 for i, country in enumerate(country_list):
