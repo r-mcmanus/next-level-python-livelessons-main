@@ -21,8 +21,7 @@ if index != -1:
 else:
     print('Country not found.')
 
-#demonstrate deleting a file
-#os.remove("data/continents_2.csv")
+
 
 #creating a file and writing to it.
 with open("data/continents_2.csv", "w") as file:
@@ -30,7 +29,7 @@ with open("data/continents_2.csv", "w") as file:
     for country in country_list:
         writer.writerow(country)
 #apppending data
-    writer.writerow(['Antarctica', 'UK'])
+    writer.writerow(['Antarctica', 'Antarctica'])
 
 
 
